@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<title>D3Times</title>
+	<link rel='stylesheet' href='assets/css/style.css'>
+	<!-- Latest compiled and minified CSS & JS -->
+	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
+	<script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js' integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS' crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js'></script>
+  <!--<script src='https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js'></script>-->
+</head>
+<body>
+	<div class='container'>
+		<div class='jumbotron'>
+			<h1>D3Times</h1>
+		</div>
+		<div class='row'>
+			<div class='col-xs-12  col-md-9 col-md-offset-0'>
+				<div class='iframeContainer intrinsic-container-18x10'>
+					<!-- Students: Add a responsive iframe here that includes the d3.html file -->
+					<iframe id='d3Iframe' src='d3.html'></iframe>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-xs-12  col-md-9 col-md-offset-0'>
+				<div class='article'>
+					<!-- Students: Replace with your analysis of the data -->
+					<div class='iframe-analysis'>
+						<!-- Use Ptags to write observations and conclusion -->
+						<br>
+						<p>
+							&nbsp; Divorce and depression rates have a correlation of about 0.53.
+							Given that divorcees are generally unhappy over their breakup, this makes sense.
+							However, the data does not show which factor precedes the other (i.e. depression > divorce).
+						</p>
+						<p>
+							&nbsp; Poverty and the rate of heart attacks have a generally weak correlation (0.37).
+							Poor diets and low exercise can lead to more heart attacks and the stress associated with Poverty 
+							may lead to elevated risk of a stroke.
+						</p>
+						<p>
+							&nbsp; Unemployment and the number of doctor's visits in the last year has a coefficient 0f 0.365.
+							So contrary to the hypothesis that unemployment would lead to lower office visits (due to financial difficulty), 
+							It seems that the jobless are going to the doctors more often than would be expected (due to medicare, govt programs, etc)
+						</p>
+						<p>
+							&nbsp; In conclusion, there can be some generalizations to be drawn from our data exploration,
+							but due to the lack of controlling variables or legitimate experimental control factors, we cannot say
+							for certain that these generalities are valid across the population. However, this is a solid foundation
+							to exploring relationships between the plotted data.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!-- Footer-->
+	<div id='footer'>
+		<p>Copyright &copy; JasonBLeeDataAnalyses 2018</p>
+	</div>
+
+</body>
+</html>
